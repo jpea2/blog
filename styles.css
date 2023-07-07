@@ -5,7 +5,7 @@
     --main-font: #434A54;
     --footer: #000000;
     font-size: 14px;
-    max-width: 800px;
+    background-color: #000000;
 
 }
 nav {
@@ -19,12 +19,23 @@ nav {
     padding-right: 1rem;
     position: sticky;
     top: 0;    
-
 }
+
+nav > h1 {
+    font-family: 'Zeyada', cursive;
+    font-size: x-large;
+    height: 100%;
+}
+
+#logo img {
+    width: 40px;
+    height: 100%;
+    align-items: center;
+}
+
 
 body {
     margin: auto;
-
     text-align: center;
 }
 
@@ -46,6 +57,7 @@ p {
 main {
     height: 80rem;
     padding: 1rem;
+    background-color: white;
 }
 
 footer {
@@ -54,7 +66,7 @@ footer {
 }
 
 #menu-btn img {
-    width: 40px;
+    width: 30px;
     height: 100%;
     align-items: center;
 }
@@ -62,5 +74,4 @@ footer {
 #menu-btn {
     flex-direction: column;
 }
-
 
