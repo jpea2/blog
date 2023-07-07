@@ -1,6 +1,11 @@
 :root {
     font-family: 'Inter', sans-serif;
     --primary: rgb(1, 197, 197);
+    --secondary-font: red;
+    --main-font: #434A54;
+    --footer: #000000;
+    font-size: 14px;
+
 }
 nav {
     color: white;
@@ -19,10 +24,29 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-weight: 400;
+}
 
+h2 {
+    font-weight: 300;
+    color: red;
+    font-size: x-large;
+}
 
+p {
+    color: var(--main-font) ;
+    font-weight: 300;
+    font-size: x-large;
+}
 main {
-    height: 100rem;
+    height: 80rem;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--footer);
+    height: 10rem;
 }
 
 #menu-btn img {
