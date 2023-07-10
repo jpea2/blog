@@ -11,32 +11,37 @@
 nav {
     color: white;
     background-color: black;
-    justify-content: space-between;
     display: flex;  
     border-bottom: 5px solid var(--primary);
     padding: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     position: sticky;
-    top: 0;    
+    top: 0;
+    margin: auto;
+    justify-content: space-between;
 }
+
 
 nav > h1 {
     font-family: 'Zeyada', cursive;
     font-size: x-large;
     height: 100%;
+    flex: 2;
 }
 
 #git-logo img {
     width: 40px;
     height: 100%;
-    align-items: center;
 }
+
 
 #journey-logo {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: xx-large;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -67,7 +72,7 @@ main {
 
 footer {
     background-color: var(--footer);
-    height: 25rem;
+
 }
 
 h3 {
@@ -97,13 +102,29 @@ hr {
     margin: auto;
 }
 
-#menu-btn img {
-    width: 30px;
-    height: 100%;
-    align-items: center;
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+    font-size: small;
 }
 
-#menu-btn {
-    flex-direction: column;
+#logo-container > div img{
+    display: flex;
+    align-self: center;
 }
 
+#logo-container a {
+    color: white;
+}
+
+#logo-container a:hover {
+    color: rgb(124, 124, 124);
+}
+
+#copyright > p{
+    margin-top: 4rem;
+    font-size: large;
+}
