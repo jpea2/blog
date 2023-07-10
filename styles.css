@@ -106,7 +106,9 @@ hr {
 #logo-container {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-top: 3rem;
     font-size: small;
 }
