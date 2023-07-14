@@ -118,18 +118,22 @@ hr {
     align-self: center;
 }
 
-#logo-container img {
-    width: 50px;
+#logo-container > div {
+    display: flex;
 }
 
-.twitter-icon {
-    width: 30px;
+.twitter-icon{
     filter: invert(1);
+    height: 100%;
+    width: 45px;
 }
 footer p {
     margin-bottom: 0;
 }
 
+.github-icon {
+    height: 100%;
+}
 
 #logo-container a {
     color: white;
@@ -139,7 +143,13 @@ footer p {
     color: rgb(124, 124, 124);
 }
 
+
 #copyright > p{
     margin-top: 4rem;
+    margin-bottom: 1rem;
     font-size: large;
+}
+
+#social-links-p {
+    color: white;
 }
